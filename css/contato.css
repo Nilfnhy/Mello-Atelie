@@ -1,0 +1,108 @@
+.artcont
+{
+    height: 700px;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+    display: flex;
+    justify-content: center;
+}
+
+.contato
+{
+    margin: 0 auto;
+    padding: 3%;
+    display: inline-flex;
+   justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+    
+}
+
+.contato div
+{
+    padding: 0 15px;
+
+}
+
+#botao
+{
+    width: 100px;
+}
+
+#bot
+{
+    text-align: right;
+}
+
+.formensagem
+{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Pacifico';
+    color: #2E3047;
+    font-size: 28px;
+}
+
+form input
+{
+    width: 390px;
+    height: 45px;
+    border: 4px solid #6DC2FF;;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+textarea
+{
+    width: 390px;
+    border: 4px solid #6DC2FF;;
+    border-radius: 12px;
+}
+
+p
+{
+    font-size: 20px;
+    
+}
+
+#p1
+{
+    text-align: left;
+}
+
+.redes_sociais
+{
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.foto_insta
+{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.foto_insta a:hover,.foto_insta  a:link,.foto_insta  a:visited
+{
+    color: #171717;
+    text-decoration: none;
+}
+
+.insta_perfil
+{
+    height: 400px;
+    width: auto;
+    border: 2px solid #2E3047;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,53 @@
+.artlog
+{
+    height: 699px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+fieldset
+{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to right, #b1b1f3, #d187e2);
+    border: 3px solid black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px #2e30476c;
+    border-radius: 6px;
+}
+
+fieldset div
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Pacifico';
+}
+
+#botao
+{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: white;
+    font-family: 'Quicksand';
+    font-weight: 500;
+}
+
+#botao:hover
+{
+    background: linear-gradient(to right, #A3A3EE, #D97AEE);
+}
+
+div input
+{
+    width: 280px;
+    height: 30px;
+    border-radius: 6px;
+}
+

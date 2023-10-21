@@ -1,0 +1,36 @@
+.artsob
+{
+    height: 800px;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.artista
+{
+    margin: 2% 10%;
+    height: 500px;
+    width: 80%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: justify;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    text-indent: 2%;
+    box-shadow: 10px 7px 7px #2e30476c;
+
+}
+
+.artista img
+{
+    height: 500px;
+    width: auto;
+}
+
+p
+{
+    margin: 0 2%;
+    
+}

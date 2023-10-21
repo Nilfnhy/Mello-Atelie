@@ -1,0 +1,47 @@
+.artsob
+{
+    height: 699px;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.gorila
+{
+    height: 210px;
+    width: auto;
+    animation-name: move_lados;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move_lados
+{
+    0% { transform: translateX(0);}
+    50% { transform: translateX(70px);}
+    100% { transform: translateX(0);}
+}
+
+h1
+{
+    font-size: 70px;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    color: #171717;
+    text-shadow: 2px 2px 5px #A3A3EE;
+}
+
+.pag_m
+{
+    padding-top: 9%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pag_m div
+{
+    padding: 0 30px;
+}
